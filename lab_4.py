@@ -15,3 +15,22 @@ used up your allotment of guesses." then print "the correct answer is "sacrament
 
 """
 
+main 
+  question = "what is the capital of california"
+  answer = "Sacramento"
+  ask (question, answer)
+
+Ask
+  tries = 0 
+  loop three times 
+    increment tries by 1 
+    ask user input()
+    check to see if user input is equal to answer
+      if so print "Correct" the exit loop
+  if not correct
+    print "You have used up your allotment of guesses."
+    print the correct answer "the correct answer is Sacramento"
+
+Main
+"""
+
