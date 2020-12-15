@@ -34,3 +34,21 @@ Ask
 Main
 """
 
+def main():
+  question = "What is the capital of California"
+  answer = "california"
+  ask (question, answer)
+
+def ask(question, answer, max_tries):
+    tries = 0 
+    Ans = ""
+    while tries < max_tries:
+      tries = tries + 1
+      ans = input(question)
+      if ans == answer:
+          print ("Correct")
+          break
+   if ans != answer:
+        print ("you have used up your allotment of guesses.")
+
+main()
